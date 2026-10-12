@@ -1,0 +1,179 @@
+[    0.234731] msm_glink 0.soc:qcom,glink: [probe_subsystem]: adsp missing transport
+[    0.269423] debugfs: Directory 'bus_debug' with parent '/' already present!
+[    0.270582] debugfs: Directory 'bus_debug' with parent '/' already present!
+[    0.271416] debugfs: Directory 'bus_debug' with parent '/' already present!
+[    0.276649] qcom_glink_rpm 0.soc:rpm-glink: failed to register early notif -22
+[    0.276772] qcom_glink_rpm 0.soc:rpm-glink: glink-native IRQ wakeup enabled irq=36
+[    0.291267] ipa ipa_is_mem_dump_allowed:7274 SCM DUMP_STATE call failed
+[    0.291553] clk_smd_rpm_set_rate_active: ret -517
+[    0.291565] ipa ipa3_enable_busclks:89 enabling ipa snoc clk failure, ret = -517
+[    0.291573] clk_smd_rpm_set_rate_active: ret -517
+[    0.291586] ipa ipa3_enable_busclks:94 enabling ipa cnoc clk failure, ret = -517
+[    0.291594] ipa ipa3_enable_clks:5428 ipa bus enable = false bus vote failure
+[    0.291611] clk_smd_rpm_set_rate_active: ret -517
+[    0.291619] ipa _ipa_enable_clks_v3_0:5353 enabling ipa core_clk failure, ret = -517
+[    0.293401] gsi 0.soc:qcom,msm_gsi: gsi_pending_irq_type:3060 no client registered
+[    0.293428] ipa _ipa_disable_clks_v3_0:5446 ipa core clk enable = false
+[    0.293445] ipa ipa3_disable_clks:5499 ipa bus enable = false bus vote failure
+[    0.304758] ipa ipa_fw_load_sm_handle_event:7054 ignore multiple smmu done events
+[    0.330544] ipa ipa3_smp2p_probe:9398 fail to get smp2p clk resp bit -517
+[    0.369877] ipa ipa3_smp2p_probe:9398 fail to get smp2p clk resp bit -517
+[    0.463731] pmctl_init-->298 enter
+[    0.463803] pmctl_init-->334 error
+[    0.463924] pmctl_init-->369 out
+[    1.616024] rpmh_master_stat: Failed to get rpmh_unit_base or rpm based target
+[    1.794045] camille 30622000.camille: camille_probe, finished.
+[    1.839380] apr_probe: enter.
+[    2.485018] fpc_init, 222 fpc
+[    2.705461] Macle ant_probe
+[    2.867949] ant_probe: gpios = 0, gpion=0
+[    2.872093] Macle irq = 214
+[    2.875438] ant_probe end
+[    2.879173] Macle ant_div_probe
+[    3.039910] ant_div_probe: gpios = 0, gpion=0
+[    3.044416] Macle irq = 244
+[    3.047684] ant_div_probe end
+[    3.109490] qcom,qpnp-power-on 21c40000.qcom,spmi:qcom,pm6125@0:qcom,power-on@800: IRQ pmic-wd-bark not found
+[    3.489364] utos utos.0: IRQ index 0 not found
+[    3.511043] pstore: Invalid compression size for deflate: 0
+[    3.557502] msm_audio_ion_probe: enter.
+[    3.561460] msm_audio_ion_probe: adsp is ready
+[    3.566101] msm_audio_ion_probe: SMMU is Enabled. SMMU version is (2)
+[    3.572789] msm-audio-ion 0.soc:jlq,msm-audio-ion: msm_audio_ion_probe: could not get smmu SID, ret = -2
+[    3.582550] msm_audio_ion_probe: exit, rc = 0.
+[    3.590001] [NVT-ts] nvt_ts_check_dt 1906: defer probe drm_panel
+[    3.736738] subsys-restart: subsys_start(): [adsp] enter,stop_flag:[0]
+[    3.743566] subsys-restart: notify_each_subsys_device(): notif:[2]: track.state:[0],no_auth:[0]
+[    3.752601] [adspk]adsp_load_notifier_service_cb: opcode 0x2
+[    3.758464] subsys-pil-tz: wait_for_err_ready(): [adsp]wait_for_err_ready enter,[0][0][0][0]
+[    3.767168] subsys-restart: notify_each_subsys_device(): notif:[3]: track.state:[2],no_auth:[0]
+[    3.776161] [adspk]adsp_load_notifier_service_cb: opcode 0x3
+[    3.789266] bolero regulator have been disabled
+[    3.796874] debugfs: Directory 'bus_debug' with parent '/' already present!
+[    3.805522] debugfs: Directory 'bus_debug' with parent '/' already present!
+[    3.815517] tx_macro tx-macro: tx_macro_probe: va-macro not registered yet, defer
+[    3.823716] rx_macro rx-macro: rx_macro_probe: va-macro not registered yet, defer
+[    3.843702] va regulator have been disabled
+[    3.860390] va_macro va-macro: va_macro_tx_va_mclk_enable: reset_swr: 1
+[    3.880558] swr-wcd va_swr_ctrl: swr_mstr_interrupt_v2: SWR bus clsh detected
+[    3.946113] sd7601 4-006b: sd7601_read_byte: reg[0x0E] err -121, 0 times
+[    3.953237] sd7601 4-006b: sd7601_read_byte: reg[0x0E] err -121, 1 times
+[    3.960341] sd7601 4-006b: sd7601_read_byte: reg[0x0E] err -121, 2 times
+[    3.967405] sd7601 4-006b: sd7601_read_byte: reg[0x0E] err -121, 3 times
+[    3.974353] sd7601 4-006b: do not detect ic, exit
+[    3.994978] sgm4154x 4-003b: sgm4154x_set_vlimit:sgm4154x_set_vlimit 4600000 0
+[    3.994978] .
+[    4.006404] sgm4154x 4-003b: sgm4154x_regulator_set_cur_uA:dev->name:C3Qx-input uA:100000.sel:0
+[    4.016065] sgm4154x 4-003b: sgm4154x_regulator_get_vbus_input_volt:Not support sgm4154x_regulator_get_vbus_input_volt
+[    4.027313] sgm4154x 4-003b: sgm4154x_regulator_get_cur_uA:dev->name:C3Qx-input .sel:0 .uA:100000
+[    4.036537] sgm4154x 4-003b: sgm4154x_regulator_get_vbus_input_volt:Not support sgm4154x_regulator_get_vbus_input_volt
+[    4.047801] sgm4154x 4-003b: sgm4154x_regulator_set_cur_uA:dev->name:C3Qx-chg uA:0.sel:0
+[    4.057586] sgm4154x 4-003b: sgm4154x_regulator_get_vreg_sel:dev->name:C3Qx-chg data_reg:[0x04]:78 data_reg:[0x0f]:0 
+[    4.068541] sgm4154x 4-003b: sgm4154x_regulator_get_vreg_sel:dev->name:C3Qx-chg selector:30 -> 4336mv
+[    4.078278] sgm4154x 4-003b: sgm4154x_regulator_get_cur_uA:dev->name:C3Qx-chg .sel:0 .uA:0
+[    4.087508] sgm4154x 4-003b: sgm4154x_regulator_get_vreg_sel:dev->name:C3Qx-chg data_reg:[0x04]:78 data_reg:[0x0f]:0 
+[    4.098490] sgm4154x 4-003b: sgm4154x_regulator_get_vreg_sel:dev->name:C3Qx-chg selector:30 -> 4336mv
+[    4.108621] sgm4154x 4-003b: sgm4154x_process_irq:sgm4154x_process_irq,reg 0x0A, value now 0x03, value pre 0x00
+[    4.119255] sgm4154x 4-003b: sgm4154x_process_irq:sgm4154x_process_irq,reg 0x08, value now 0x00, value pre 0x00
+[    4.129846] sgm4154x 4-003b: sgm4154x_process_irq:sgm4154x_process_irq,reg 0x09, value now 0x00, value pre 0x00
+[    4.140307] sgm4154x 4-003b: sgm4154x_register_irq:irq gpio:497 irq = 279
+[    4.185046] [sh366101] fg_gauge_check_sfr(2388): fg_gauge_check_sfr end. sfr_rc=1944, donot need reset!
+[    4.185916] [sh366101] fg_gauge_check_sfr(2393): fg_gauge_check_sfr end. ret=0
+[    4.271793] [sh366101] fg_init_workfunc(3347): Not Find battery psy-node(jcmbattery),retry!.
+[    4.292420] icnss2: SMMU IOVA base not found
+[    4.299912] bt_power_populate_dt_pinfo: wl-reset-gpio not provided in device tree
+[    4.307704] bt_dt_parse_clk_info: clocks is not provided in device tree
+[    4.314606] No TCS CMD entry found in DTSI
+[    4.318817] bt_power_probe: Failed to get TCS table info
+[    4.328742] jlq-mipi-dsi 30620000.dsi: dw_mipi_parse_dt:succeed to get dpu address
+[    4.338844] jlq-dsi-panel 30620000.dsi.0: ESD enabled with mode: reg_read
+[    4.345949] jlq-dsi-panel 30620000.dsi.0: No supply entry present for power-supply-entries
+[    4.354710] jlq-dsi-panel 30620000.dsi.0: no or invalid lcd power enable gpio number
+[    4.362723] jlq-dsi-panel 30620000.dsi.0: no or invalid tp reset gpio number
+[    4.370015] jlq-dsi-panel 30620000.dsi.0: no or invalid lcd enable-backlight-gpio number
+[    4.385070] jlq_dwc2_otg_phy 3450e2e0.usb_phy:  Register notifier EXTCON_USB for 4-003b  success!
+[    4.393991] jlq_dwc2_otg_phy 3450e2e0.usb_phy: Can't found usb-id-extcon
+[    4.393991]  
+[    4.410031] Error registering TZ zone:-19 for dt_ch:78
+[    4.420528] power_supply jcmbattery: driver failed to report `health' property: -16
+[    4.434885] sgm4154x 4-003b: sgm4154x_dump_msg:[0x00] = 0x00, [0x01] = 0x0A, [0x02] = 0x80, [0x03] = 0x22, [0x04] = 0x78, [0x05] = 0x8F, [0x06] = 0xE7, [0x07] = 0x4C
+[    4.449687] sgm4154x 4-003b: sgm4154x_dump_msg:[0x08] = 0x00, [0x09] = 0x00, [0x0A] = 0x03, [0x0B] = 0x6C, [0x0C] = 0x75, [0x0D] = 0x00, [0x0E] = 0x00, [0x0F] = 0x00
+[    4.467694] sgm4154x 4-003b: sgm4154x_dump_msg:vchg:4352, ichg:0, ilimit:100, iterm 0, vlimit 4600, sftimer 1, iboost 1200
+[    4.479305] sgm4154x 4-003b: sgm4154x_dump_msg:hiz:0, chg_en:0, chg_state:NOT CHARGING, vbus_type:NO INPUT, pg:0, thm:0, vsys_state:0
+[    4.491308] sgm4154x 4-003b: sgm4154x_dump_msg:fault:0, vbus_gd:0, vdpm:0, idpm:0, acov:0
+[    4.602006] NVT-ts spi1.0:  Register notifier EXTCON_USB for 4-003b success!
+[    4.609084] [NVT-ts] nvt_ts_usb_plugin_work 1451: tp is suspended, can not to set
+[    4.805499] debugfs: Directory 'bus_debug' with parent '/' already present!
+[    4.812792] debugfs: Directory 'bus_debug' with parent '/' already present!
+[    4.835791] jr510-asoc-snd 0.soc:sound: control 2:0:0:Audio Voip Tx Mute:0 is already present
+[    4.844354] msm-pcm-dsp 0.soc:jlq,msm-pcm-low-latency: ASoC: Failed to add Audio Voip Tx Mute: -16
+[    4.853396] jr510-asoc-snd 0.soc:sound: control 2:0:0:Audio Voip Tx Mute:0 is already present
+[    4.861931] msm-pcm-dsp 0.soc:jlq,msm-ultra-low-latency: ASoC: Failed to add Audio Voip Tx Mute: -16
+[    4.898473] init: mount("selinuxfs", "/sys/fs/selinux", "selinuxfs", 0, NULL) failed No such file or directory
+[    4.908614] init: Init encountered errors starting first stage, aborting
+[    4.916239] init: InitFatalReboot: signal 6
+[    4.931804] init: #00 pc 00000000000b2da4  /system/bin/init (android::init::InitFatalReboot(int)+208)
+[    4.941110] init: #01 pc 000000000004db2c  /system/bin/init (android::init::InitAborter(char const*)+48)
+[    4.944875] msm-pcm-routing 0.soc:jlq,msm-pcm-routing: ASoC: mux AUDIO_REF_EC_UL2 MUX has no paths
+[    4.950643] init: #02 pc 0000000000013990  /system/lib64/libbase.so (android::base::SetAborter(std::__1::function<void (char const*)>&&)::$_3::__invoke(char const*)+76)
+[    4.959591] msm-pcm-routing 0.soc:jlq,msm-pcm-routing: ASoC: mux AUDIO_REF_EC_UL3 MUX has no paths
+[    4.974655] init: #03 pc 0000000000012fb4  /system/lib64/libbase.so (android::base::LogMessage::~LogMessage()+320)
+[    4.983591] msm-pcm-routing 0.soc:jlq,msm-pcm-routing: ASoC: mux AUDIO_REF_EC_UL4 MUX has no paths
+[    4.993952] init: #04 pc 0000000000076a60  /system/bin/init (android::init::FirstStageMain(int, char**)+5324)
+[    5.002901] msm-pcm-routing 0.soc:jlq,msm-pcm-routing: ASoC: mux AUDIO_REF_EC_UL5 MUX has no paths
+[    5.012829] init: #05 pc 000000000002f0e8  /system/bin/init (main+148)
+[    5.021778] msm-pcm-routing 0.soc:jlq,msm-pcm-routing: ASoC: mux AUDIO_REF_EC_UL6 MUX has no paths
+[    5.028320] init: #06 pc 0000000000084f94  /system/lib64/libc.so (__libc_init+108)
+[    5.037272] msm-pcm-routing 0.soc:jlq,msm-pcm-routing: ASoC: mux AUDIO_REF_EC_UL8 MUX has no paths
+[    5.047105] sgm4154x 4-003b: sgm4154x_set_vlimit:sgm4154x_set_vlimit 4600000 0
+[    5.047105] .
+[    5.053806] msm-pcm-routing 0.soc:jlq,msm-pcm-routing: ASoC: mux AUDIO_REF_EC_UL9 MUX has no paths
+[    5.054168] msm-pcm-routing 0.soc:jlq,msm-pcm-routing: ASoC: mux AUDIO_REF_EC_UL16 MUX has no paths
+[    5.064775] sgm4154x 4-003b: sgm4154x_reboot_notify:diable OTG, set chg(4400mV/500mA)
+[    5.071577] msm-pcm-routing 0.soc:jlq,msm-pcm-routing: ASoC: mux AUDIO_REF_EC_UL17 MUX has no paths
+[    5.088481] msm-pcm-routing 0.soc:jlq,msm-pcm-routing: ASoC: mux AUDIO_REF_EC_UL18 MUX has no paths
+[    5.106564] msm-pcm-routing 0.soc:jlq,msm-pcm-routing: ASoC: mux AUDIO_REF_EC_UL19 MUX has no paths
+[    5.115621] msm-pcm-routing 0.soc:jlq,msm-pcm-routing: ASoC: mux AUDIO_REF_EC_UL28 MUX has no paths
+[    5.124676] msm-pcm-routing 0.soc:jlq,msm-pcm-routing: ASoC: mux AUDIO_REF_EC_UL29 MUX has no paths
+[    5.159926] debugfs: Directory '0.soc:jlq,msm-dai-q6:jlq,msm-da' with parent 'jr510-asoc-snd' already present!
+[    5.169974] debugfs: Directory '0.soc:jlq,msm-dai-q6:jlq,msm-da' with parent 'jr510-asoc-snd' already present!
+[    5.210906] debugfs: Directory '0.soc:jlq,msm-dai-cdc-dma:jlq,m' with parent 'jr510-asoc-snd' already present!
+[    5.220962] debugfs: Directory '0.soc:jlq,msm-dai-cdc-dma:jlq,m' with parent 'jr510-asoc-snd' already present!
+[    5.230977] debugfs: Directory '0.soc:jlq,msm-dai-cdc-dma:jlq,m' with parent 'jr510-asoc-snd' already present!
+[    5.240993] debugfs: Directory '0.soc:jlq,msm-dai-cdc-dma:jlq,m' with parent 'jr510-asoc-snd' already present!
+[    5.251005] debugfs: Directory '0.soc:jlq,msm-dai-cdc-dma:jlq,m' with parent 'jr510-asoc-snd' already present!
+[    5.261058] debugfs: Directory '0.soc:jlq,msm-dai-cdc-dma:jlq,m' with parent 'jr510-asoc-snd' already present!
+[    5.271074] debugfs: Directory '0.soc:jlq,msm-dai-cdc-dma:jlq,m' with parent 'jr510-asoc-snd' already present!
+[    5.281084] debugfs: Directory '0.soc:jlq,msm-dai-cdc-dma:jlq,m' with parent 'jr510-asoc-snd' already present!
+[    5.291095] debugfs: Directory '0.soc:jlq,msm-dai-cdc-dma:jlq,m' with parent 'jr510-asoc-snd' already present!
+[    5.301107] debugfs: Directory '0.soc:jlq,msm-dai-q6:jlq,msm-da' with parent 'jr510-asoc-snd' already present!
+[    5.311870] debugfs: Directory '0.soc:jlq,msm-dai-q6:jlq,msm-da' with parent 'jr510-asoc-snd' already present!
+[    5.321895] debugfs: Directory '0.soc:jlq,msm-dai-q6:jlq,msm-da' with parent 'jr510-asoc-snd' already present!
+[    5.333018] [sh366101] Check_Chip_Version(2700): main=0x0001, date=0x22020015, afi=0x0656, ts=0x0002
+[    5.390205] jr510-asoc-snd 0.soc:sound: msm_asoc_machine_probe: machine probe success.
+[    5.404300] jlq-mipi-dsi 30620000.dsi: dw_mipi_dsi_shutdown
+[    5.421045] [sh366101] Check_Chip_Version(2746):  Chip Version: ic date=0x22020015 
+[    5.429972] jlq-mipi-dsi 30620000.dsi: jlq_display_dou_disable: dou is idle, status=0x0
+[    5.445786] jlq-dsi-panel 30620000.dsi.0: jlq_panel_disable enter
+[    5.451926] jlq-dsi-panel 30620000.dsi.0: jlq_panel_esd_disable
+[    5.471293] jlq-dsi-panel 30620000.dsi.0: jlq_panel_unprepare enter
+[    5.473324] [sh366101] fg_fw_updata(3270): Probe: Check version ok!
+[    5.597575] [sh366101] fg_gauge_check_autocali(3030): End. FG is un-calied! cali-flag=0x0000
+[    5.637482] jlq-dsi-panel 30620000.dsi.0: jlq_panel_normal_unprepare enter
+[    5.654980] sgm4154x 4-003b: sgm4154x_set_vlimit:sgm4154x_set_vlimit 4600000 0
+[    5.654980] .
+[    5.665533] sgm4154x 4-003b: sgm4154x_reboot_notify:diable OTG, set chg(4400mV/500mA)
+[    5.680950] sgm4154x 4-003b: sgm4154x_dump_msg:[0x00] = 0x04, [0x01] = 0x1A, [0x02] = 0x88, [0x03] = 0x22, [0x04] = 0x88, [0x05] = 0x8F, [0x06] = 0xE7, [0x07] = 0x4C
+[    5.695935] sgm4154x 4-003b: sgm4154x_dump_msg:[0x08] = 0x00, [0x09] = 0x00, [0x0A] = 0x03, [0x0B] = 0x6C, [0x0C] = 0x75, [0x0D] = 0x00, [0x0E] = 0x00, [0x0F] = 0x00
+[    5.714642] sgm4154x 4-003b: sgm4154x_dump_msg:vchg:4400, ichg:480, ilimit:500, iterm 0, vlimit 4600, sftimer 1, iboost 1200
+[    5.726664] sgm4154x 4-003b: sgm4154x_dump_msg:hiz:0, chg_en:1, chg_state:NOT CHARGING, vbus_type:NO INPUT, pg:0, thm:0, vsys_state:0
+[    5.738853] sgm4154x 4-003b: sgm4154x_dump_msg:fault:0, vbus_gd:0, vdpm:0, idpm:0, acov:0
+[    5.747372] [adspk]adsp_load_shutdown
+[    5.751120] [adspk][wdt]adsp_wdt_clk_disable
+[    5.755529] [adspk][lpm]adsp_stall
+[    5.774041] [sh366101] fg_gauge_runstate_check(2656): soc=31, volt=3786000, termVolt=3400000, ocv=3796000, fcc=5615000
+[    5.776718] regulator regulator.4: [gdsc_disable] poll fail!!
+[    5.785053] [sh366101] fg_gauge_runstate_check(2659): OEMFlag=0xCD03, QEN_FLAG=0, SOC_FLAG=0, LifeTime_Flag=0
+[    5.790960] smmu_tcu_gdsc: failed to disable
+[    5.805628] arm-smmu-v3 34200000.smmu: failed to enable tcu_power, -110
+[    5.813859] reboot: Restarting system with command 'bootloader'
